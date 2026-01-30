@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+#container {
+    margin-left: 200px;
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: calc(100% - 200px); 
+    gap: 20px;
+    padding: 40px;
+    font-family: Helvetica, sans-serif;
+   
+}
+#container p{
+    font-size:14px;
+
+}
+footer {
+    margin-left: 200px;
+}
+
+#container article {
+    width: 300px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+
+header p {
+    background-color: red;
+    margin: 0;
+    margin-left: 200px;
+    width: calc(100% - 200px); 
+    box-sizing: border-box;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    margin-left: 200px;
+    width: calc(100% - 200px); 
+    gap: 50px; 
+    
+}
+
+header button {
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px; 
+    height: 50px;
+    font-size: 18px; 
+    text-align: center;
+    flex-shrink: 1;
+}
+
+h1 {
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom: -20px;
+    width: calc(100% - 200px); 
+    box-sizing: border-box;
+}
+
+#thanks {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: solid;
+    border-width:1px;
+    border-color: black;
+    background-color: lightblue;
+    font-size: 32px;
+    padding: 20px 10px;
+    margin: 0;
+    text-align:center;
+}
+
+#jumpMenu h2 {
+    line-height: 1.25em;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#jumpMenu {
+    background-color: yellow;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    text-align: center;
+    line-height: 3.0em;
+    
+}
